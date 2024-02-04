@@ -1,0 +1,133 @@
+* {
+	font-family: sans-serif;
+}
+
+body {
+		background-color: #355E3B;
+		padding: 10px;
+}
+.header {
+	position: relative;
+    border: 10px ridge #D3D3D3;
+	background-color: white;
+}
+
+.name {
+	position: relative;
+	border: 5px ridge darkred;
+	background-color: white;
+}
+
+.nav {
+	position: relative;
+    border: 5px ridge darkred;
+	background-color: white;
+	top: 1px;
+}
+
+.link {
+	text-align: center;
+}
+
+.banner {
+	height: 900px;
+	top: 10px;
+	background-image: linear-gradient(to bottom, rgba(53, 94, 59, 0) 80%, rgba(53, 94, 59, 1) 20%), url("banner_img.png");
+	background-size: 100% 98%;
+	z-index: 1;
+}
+
+.content {
+	position: relative;
+    border: 10px ridge #D3D3D3;
+	background-color: white;
+	height: 1000px;
+	bottom: 170px;
+}
+
+.bio {
+	position: relative;
+	display: flex;
+    border: 1px ridge #D3D3D3;	
+	width: 48%;
+	height: 98%;
+	float: left;
+	top: 1%;
+	bottom: 1%;
+	right: 1%;
+	left: 1%;
+}
+
+.who {
+	position: relative;
+	border: 1px solid black;
+	width: 100%;
+	float: left;
+}
+
+.info {
+	position: relative;
+	width: 60%;
+	height: 35%;
+	float: right;
+	float: top;
+}
+
+.profile {
+	position: relative;
+	width: 35%;
+	height: 34%;
+	float: left;
+	float: top;
+	left
+}
+
+.profile > img {
+	width: 100%;
+	height: 100%;
+}
+
+.hobby {
+	position: relative;
+	width: 100%;
+	height: 63%;
+	float: left;
+	float: bottom;
+}
+
+.graph {
+	position: relative;
+	display: flex;
+	width: 49%;
+	height: 62%;
+	float: right;
+	top: 2%;
+	bottom: 1%;
+	right: 1%;
+}
+
+.graph > table, th, td {
+	padding: 20px;
+	border: 1px ridge black;
+	width: 100%;
+	height: 100%;
+}
+
+.quote {
+	position: relative;
+	display: flex;
+    border: 1px ridge orange;
+	width: 49%;
+	height: 35%;
+	float: right;
+	top: 1%;
+	right: 1%;
+}
+
+.footer {
+	position: relative;
+    border: 10px ridge #D3D3D3;
+	height: 180px;
+	background-color: white;
+	bottom: 70px;
+}
