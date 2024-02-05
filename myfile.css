@@ -6,6 +6,11 @@ body {
 		background-color: #355E3B;
 		padding: 10px;
 }
+
+h2 {
+	text-decoration: underline;
+}
+
 .header {
 	position: relative;
     border: 10px ridge #D3D3D3;
@@ -14,19 +19,23 @@ body {
 
 .name {
 	position: relative;
-	border: 5px ridge darkred;
 	background-color: white;
+	text-align: center;
 }
 
 .nav {
 	position: relative;
-    border: 5px ridge darkred;
 	background-color: white;
 	top: 1px;
+	width: 100%;
 }
 
 .link {
+	display: inline-block;
+	border: 1px solid black;
 	text-align: center;
+	position: relative;
+	width: 24.65%;
 }
 
 .banner {
@@ -48,7 +57,7 @@ body {
 .bio {
 	position: relative;
 	display: flex;
-    border: 1px ridge #D3D3D3;	
+    border-right: 1px solid #D3D3D3;	
 	width: 48%;
 	height: 98%;
 	float: left;
@@ -60,7 +69,6 @@ body {
 
 .who {
 	position: relative;
-	border: 1px solid black;
 	width: 100%;
 	float: left;
 }
@@ -68,9 +76,15 @@ body {
 .info {
 	position: relative;
 	width: 60%;
-	height: 35%;
+	height: 30%;
 	float: right;
 	float: top;
+}
+
+.info > p {
+	position: relative;
+	width: 98%;
+	height: 100%;
 }
 
 .profile {
@@ -79,23 +93,25 @@ body {
 	height: 34%;
 	float: left;
 	float: top;
-	left
 }
 
 .profile > img {
+	border: 3px solid black;
 	width: 100%;
 	height: 100%;
 }
 
 .hobby {
 	position: relative;
-	width: 100%;
-	height: 63%;
-	float: left;
+	width: 60%;
+	height: 50%;
+	float: right;
 	float: bottom;
+	top: 100px;
 }
 
 .graph {
+	background-color: #D3D3D3;;
 	position: relative;
 	display: flex;
 	width: 49%;
@@ -107,16 +123,31 @@ body {
 }
 
 .graph > table, th, td {
-	padding: 20px;
+	padding: 18px;
 	border: 1px ridge black;
 	width: 100%;
 	height: 100%;
 }
 
+th {
+	text-decoration: underline;
+}
+
+.hd {
+	background-color: #00008C;
+}
+
+.even {
+	background-color: #87CEFB;
+}
+
+.odd {
+	background-color: #659BDF;
+}
+
 .quote {
 	position: relative;
 	display: flex;
-    border: 1px ridge orange;
 	width: 49%;
 	height: 35%;
 	float: right;
@@ -127,7 +158,7 @@ body {
 .footer {
 	position: relative;
     border: 10px ridge #D3D3D3;
-	height: 180px;
+	height: 200px;
 	background-color: white;
 	bottom: 70px;
 }
